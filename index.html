@@ -16,30 +16,491 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1>flexbox backroads</h1>
     <!-- header  -->
+    <header id="home">
+      <!-- navbar  -->
+      <nav class="navbar">
+        <div class="nav-center">
+          <!-- nav header  -->
+          <div class="nav-header">
+            <img src="./images/logo.svg" alt="nav logo" class="nav-logo" />
+            <button class="nav-toggle" id="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!--end nav header  -->
+          <!-- nav links  -->
+          <ul class="nav-links" id="nav-links">
+            <!-- single nav item  -->
+            <li>
+              <a href="#home" class="nav-link scroll-link" target="blank"
+                >home</a
+              >
+            </li>
+            <!-- end single nav item  -->
+            <!-- single nav item  -->
+            <li>
+              <a href="#about" class="nav-link scroll-link">about</a>
+            </li>
+            <!-- end single nav item  -->
+            <!-- single nav item  -->
+            <li>
+              <a href="#services" class="nav-link scroll-link">services</a>
+            </li>
+            <!-- end single nav item  -->
+            <!-- single nav item  -->
+            <li>
+              <a href="#featured" class="nav-link scroll-link">featured</a>
+            </li>
+            <!-- end single nav item  -->
+            <!-- single nav item  -->
+            <li>
+              <a href="#gallery" class="nav-link scroll-link">gallery</a>
+            </li>
+            <!-- end single nav item  -->
+          </ul>
+          <!-- end nav links  -->
+
+          <!-- nav icons  -->
+          <ul class="nav-icons">
+            <!-- single icon  -->
+            <li>
+              <a href="https://twitter.com/" class="nav-icon" target="blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <!-- end single icon  -->
+            <!-- single icon  -->
+            <li>
+              <a href="https://twitter.com/" class="nav-icon" target="blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <!-- end single icon  -->
+            <!-- single icon  -->
+            <li>
+              <a href="https://twitter.com/" class="nav-icon" target="blank">
+                <i class="fab fa-squarespace"></i>
+              </a>
+            </li>
+            <!-- end single icon  -->
+          </ul>
+          <!-- end  footer icons  -->
+        </div>
+      </nav>
+      <!-- end of navbar  -->
+      <!-- hero  -->
+      <div class="hero">
+        <div class="hero-banner">
+          <h1>keep on exploring</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit,
+            provident excepturi. Inventore fugit natus tempora!
+          </p>
+          <a href="#featured" class="btn hero-btn scroll-link">explore tours</a>
+        </div>
+      </div>
+      <!-- end of hero  -->
+    </header>
     <!-- end of header  -->
 
     <!-- about section -->
+    <section class="section" id="about">
+      <!-- section title  -->
+      <div class="section-title">
+        <h2>about <span>us</span></h2>
+      </div>
+      <!-- end of section title  -->
+      <!-- section senter about  -->
+      <div class="section-center about-center">
+        <!-- img wrapper  -->
+        <article class="about-img">
+          <img
+            src="./images/about.jpeg"
+            alt="awsome beach"
+            class="about-photo"
+          />
+        </article>
+        <!-- about info  -->
+        <article class="about-info">
+          <h3>explore the difference</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+            numquam necessitatibus id nam, corporis iusto repellendus
+            consectetur magni animi officia.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            quas a fugit dolor velit? Quisquam nobis ex doloremque repellendus
+            enim?
+          </p>
+          <a href="#" class="btn">read more</a>
+        </article>
+      </div>
+      <!-- end of section senter about  -->
+    </section>
     <!-- end of about section -->
 
     <!-- services -->
+    <section class="section services" id="services">
+      <!--section title  -->
+      <div class="section-title">
+        <h2>our <span>services</span></h2>
+      </div>
+      <!-- end of section title  -->
+      <!-- section center  -->
+      <div class="section-center services-center">
+        <!-- single service 1 -->
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-wallet fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">saving money</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              laboriosam repellat, sed nulla quae minus!
+            </p>
+          </div>
+        </article>
+        <!-- end of single service 1-->
+        <!-- single service  2-->
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-tree fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">endless biking</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              laboriosam repellat, sed nulla quae minus!
+            </p>
+          </div>
+        </article>
+        <!-- end of single service 2-->
+        <!-- single service  3-->
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-socks fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">amazing comfort</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              laboriosam repellat, sed nulla quae minus!
+            </p>
+          </div>
+        </article>
+        <!-- end of single service 3-->
+      </div>
+      <!-- end of section center  -->
+    </section>
     <!--end services -->
 
     <!-- featured tours -->
+    <section class="section" id="featured">
+      <!--section title  -->
+      <div class="section-title">
+        <h2>featured <span>tours</span></h2>
+      </div>
+      <!-- end of section title  -->
+      <!-- featured center   -->
+      <div class="section-center featured-center">
+        <!-- single tour  1-->
+        <article class="tour-card">
+          <!-- img container  -->
+          <div class="tour-img-container">
+            <img src="./images/tour-1.jpeg" alt="Tour1" class="tour-img" />
+            <p class="tour-date">august 26th, 2020</p>
+          </div>
+          <!-- tour info -->
+          <div class="tour-info">
+            <div class="tour-title">
+              <h4>Tibet adventure</h4>
+              <p>6 days</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              delectus cupiditate illum deserunt quasi similique accusantium
+              iste sunt ratione modi.
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span>
+                  <i class="fas fa-map"></i>
+                  china
+                </span>
+              </p>
+              <p>from $2100</p>
+            </div>
+          </div>
+          <!-- end of tour info -->
+        </article>
+        <!-- end of single tour 1 -->
+        <!-- single tour  2-->
+        <article class="tour-card">
+          <!-- img container  -->
+          <div class="tour-img-container">
+            <img src="./images/tour-2.jpeg" alt="Tour2" class="tour-img" />
+            <p class="tour-date">october 1st, 2020</p>
+          </div>
+          <!-- tour info -->
+          <div class="tour-info">
+            <h4>best of java</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              delectus cupiditate illum deserunt quasi similique accusantium
+              iste sunt ratione modi.
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span>
+                  <i class="fas fa-map"></i>
+                  indonesia
+                </span>
+              </p>
+              <p>11 days</p>
+              <p>from $1400</p>
+            </div>
+          </div>
+          <!-- end of tour info -->
+        </article>
+        <!-- end of single tour 2-->
+        <!-- single tour 3 -->
+        <article class="tour-card">
+          <!-- img container  -->
+          <div class="tour-img-container">
+            <img src="./images/tour-3.jpeg" alt="Tour3" class="tour-img" />
+            <p class="tour-date">sebtember 15th, 2020</p>
+          </div>
+          <!-- tour info -->
+          <div class="tour-info">
+            <h4>explore hong kong</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              delectus cupiditate illum deserunt quasi similique accusantium
+              iste sunt ratione modi.
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span>
+                  <i class="fas fa-map"></i>
+                  china
+                </span>
+              </p>
+              <p>8 days</p>
+              <p>from $5000</p>
+            </div>
+          </div>
+          <!-- end of tour info -->
+        </article>
+        <!-- end of single tour 3 -->
+        <!-- single tour 4 -->
+        <article class="tour-card">
+          <!-- img container  -->
+          <div class="tour-img-container">
+            <img src="./images/tour-1.jpeg" alt="Tour1" class="tour-img" />
+            <p class="tour-date">december 5th, 2020</p>
+          </div>
+          <!-- tour info -->
+          <div class="tour-info">
+            <h4>kenja</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              delectus cupiditate illum deserunt quasi similique accusantium
+              iste sunt ratione modi.
+            </p>
+            <div class="tour-footer">
+              <p>
+                <span>
+                  <i class="fas fa-map"></i>
+                  kenya
+                </span>
+              </p>
+              <p>30 days</p>
+              <p>from $3300</p>
+            </div>
+          </div>
+          <!-- end of tour info -->
+        </article>
+        <!-- end of single tour  4-->
+      </div>
+      <!-- end of featured center  -->
+      <!-- all tours button  -->
+      <div class="tour-btn">
+        <a href="#" class="btn">all tours</a>
+      </div>
+    </section>
     <!-- end of featured tours -->
 
     <!-- contact -->
-
+    <section class="section contact" id="contact">
+      <div class="section-center contact-center">
+        <!-- contact title  -->
+        <article class="contact-title">
+          <h3>want latest tour info and updates?</h3>
+          <p>Sign up for news letter and stay up to date</p>
+        </article>
+        <!-- end of contact title  -->
+        <!-- input form  -->
+        <form action="" class="contact-form">
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            placeholder="your email"
+          />
+          <button type="submit" class="btn-submit">submit</button>
+        </form>
+        <!--end of input form  -->
+      </div>
+    </section>
     <!-- end of contact -->
 
     <!-- gallery  -->
-
+    <section id="gallery">
+      <div class="gallery-center">
+        <!-- single img  1-->
+        <article class="gallery-img-container">
+          <img src="./images/tour-1.jpeg" alt="img 1" class="gallery-img" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single img 1 -->
+        <!-- single img  2-->
+        <article class="gallery-img-container">
+          <img src="./images/tour-2.jpeg" alt="img 2" class="gallery-img" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single img  2-->
+        <!-- single img  3-->
+        <article class="gallery-img-container">
+          <img src="./images/tour-3.jpeg" alt="img 3" class="gallery-img" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single img  3-->
+        <!-- single img  4-->
+        <article class="gallery-img-container">
+          <img src="./images/tour-4.jpeg" alt="img 4" class="gallery-img" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single img  4-->
+        <!-- single img 5 -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-5.jpeg" alt="img 5" class="gallery-img" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single img 5 -->
+        <!-- single img  6-->
+        <article class="gallery-img-container">
+          <img src="./images/tour-6.jpeg" alt="img 6" class="gallery-img" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single img  6-->
+        <!-- single img  7-->
+        <article class="gallery-img-container">
+          <img src="./images/tour-1.jpeg" alt="img 7" class="gallery-img" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single img  7-->
+        <!-- single img 8 -->
+        <article class="gallery-img-container">
+          <img src="./images/tour-2.jpeg" alt="img 8" class="gallery-img" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single img 8 -->
+      </div>
+    </section>
     <!-- end of gallery  -->
 
     <!-- footer -->
+    <footer class="section footer">
+      <!-- footer links  -->
+      <ul class="footer-links">
+        <!-- single nav item  -->
+        <li>
+          <a href="#home" class="footer-link scroll-link">home</a>
+        </li>
+        <!-- end single nav item  -->
+        <!-- single nav item  -->
+        <li>
+          <a href="#about" class="footer-link scroll-link">about</a>
+        </li>
+        <!-- end single nav item  -->
+        <!-- single nav item  -->
+        <li>
+          <a href="#services" class="footer-link scroll-link">services</a>
+        </li>
+        <!-- end single nav item  -->
+        <!-- single nav item  -->
+        <li>
+          <a href="#featured" class="footer-link scroll-link">featured</a>
+        </li>
+        <!-- end single nav item  -->
+        <!-- single nav item  -->
+        <li>
+          <a href="#gallery" class="footer-link scroll-link">gallery</a>
+        </li>
+        <!-- end single nav item  -->
+      </ul>
+
+      <!-- end footer links  -->
+      <!-- footer icons  -->
+      <ul class="footer-icons">
+        <!-- single icon  -->
+        <li>
+          <a href="https://twitter.com/" class="footer-icon" target="blank">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <!-- end single icon  -->
+        <!-- single icon  -->
+        <li>
+          <a href="https://twitter.com/" class="footer-icon" target="blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <!-- end single icon  -->
+        <!-- single icon  -->
+        <li>
+          <a href="https://twitter.com/" class="footer-icon" target="blank">
+            <i class="fab fa-squarespace"></i>
+          </a>
+        </li>
+        <!-- end single icon  -->
+      </ul>
+      <!-- end footer icons  -->
+      <p class="copyright">
+        Copyright &copy; Backroad Tour Company <span id="date"></span>. All
+        rights reserved.
+      </p>
+    </footer>
+    <!-- end footer icons  -->
 
     <!-- js -->
     <script src="./js/app.js"></script>
   </body>
 </html>
+<!--
+  Continous Netlify deployment via Github
+Steps:
+1. Create empty Github Repo
+2. initialise project as a good project
+3. setup github repo as the remote URL for project
+4. connect netlify to Github
+-->
